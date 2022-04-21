@@ -1,0 +1,202 @@
+ 
+4月 22 01:44:20 fedora kernel: Freezing user space processes ... (elapsed 0.002 seconds) done.
+4月 22 01:44:20 fedora kernel: OOM killer disabled.
+4月 22 01:44:20 fedora kernel: Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+4月 22 01:44:20 fedora kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+4月 22 01:44:20 fedora kernel: PM: suspend devices took 0.175 seconds
+4月 22 01:44:20 fedora kernel: ACPI: EC: interrupt blocked
+4月 22 01:44:20 fedora kernel: ACPI: EC: interrupt unblocked
+4月 22 01:44:20 fedora kernel: [drm] PCIE GART of 1024M enabled.
+4月 22 01:44:20 fedora kernel: [drm] PTB located at 0x000000F400E10000
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: SMU is resuming...
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: dpm has been disabled
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: SMU is resumed successfully!
+4月 22 01:44:20 fedora kernel: nvme nvme1: Shutdown timeout set to 8 seconds
+4月 22 01:44:20 fedora kernel: [drm] DMUB hardware initialized: version=0x0101001F
+4月 22 01:44:20 fedora kernel: nvme nvme0: 16/0/0 default/read/poll queues
+4月 22 01:44:20 fedora kernel: [drm] VCN decode and encode initialized successfully(under DPG Mode).
+4月 22 01:44:20 fedora kernel: [drm] JPEG decode initialized successfully.
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+4月 22 01:44:20 fedora kernel: amdgpu 0000:06:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+4月 22 01:44:20 fedora kernel: usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+4月 22 01:44:20 fedora kernel: usb 1-4: reset high-speed USB device number 4 using xhci_hcd
+4月 22 01:44:20 fedora kernel: usb 3-3.3: reset full-speed USB device number 5 using xhci_hcd
+4月 22 01:44:20 fedora kernel: PM: resume devices took 0.619 seconds
+4月 22 01:44:20 fedora kernel: OOM killer enabled.
+4月 22 01:44:20 fedora kernel: Restarting tasks ... done.
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: Bootloader revision 0.3 build 0 week 24 2017
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: Device revision is 1
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: Secure boot is enabled
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: OTP lock is enabled
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: API lock is enabled
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: Debug lock is disabled
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+4月 22 01:44:20 fedora systemd-resolved[1396]: Clock change detected. Flushing caches.
+4月 22 01:44:20 fedora systemd-logind[1431]: Power key pressed.
+4月 22 01:44:20 fedora systemd[1]: Starting Load/Save RF Kill Switch Status...
+4月 22 01:44:20 fedora upowerd[1437]: treating change event as add on /sys/devices/pci0000:00/0000:00:08.1/0000:06:00.4/usb3/3-4
+4月 22 01:44:20 fedora upowerd[1437]: treating change event as add on /sys/devices/pci0000:00/0000:00:08.1/0000:06:00.4/usb3/3-4
+4月 22 01:44:20 fedora systemd[1]: Stopped target Bluetooth Support.
+4月 22 01:44:20 fedora systemd[1901]: Stopped target Bluetooth.
+4月 22 01:44:20 fedora systemd-sleep[3938]: System returned from sleep state.
+4月 22 01:44:20 fedora kernel: PM: suspend exit
+4月 22 01:44:20 fedora systemd[1901]: Reached target Bluetooth.
+4月 22 01:44:20 fedora systemd[1]: Started Load/Save RF Kill Switch Status.
+4月 22 01:44:20 fedora audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:20 fedora systemd[1]: Reached target Bluetooth Support.
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: Found device firmware: intel/ibt-20-1-3.sfi
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: Boot Address: 0x24800
+4月 22 01:44:20 fedora kernel: Bluetooth: hci0: Firmware Version: 126-5.22
+4月 22 01:44:20 fedora kernel: nvme nvme1: 12/0/0 default/read/poll queues
+4月 22 01:44:20 fedora systemd[1]: systemd-suspend.service: Deactivated successfully.
+4月 22 01:44:20 fedora systemd[1]: Finished System Suspend.
+4月 22 01:44:20 fedora audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:20 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:20 fedora systemd[1]: systemd-suspend.service: Consumed 1.092s CPU time.
+4月 22 01:44:20 fedora systemd[1]: Stopped target Sleep.
+4月 22 01:44:20 fedora systemd[1]: Reached target Suspend.
+4月 22 01:44:20 fedora systemd-logind[1431]: Operation 'sleep' finished.
+4月 22 01:44:20 fedora ModemManager[1478]: <info>  [sleep-monitor] system is resuming
+4月 22 01:44:20 fedora systemd[1]: Starting NVIDIA system resume actions...
+4月 22 01:44:20 fedora systemd[1]: Stopped target Suspend.
+4月 22 01:44:20 fedora NetworkManager[1497]: <info>  [1650563060.8470] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+4月 22 01:44:20 fedora NetworkManager[1497]: <info>  [1650563060.8474] device (enp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+4月 22 01:44:20 fedora suspend[4242]: nvidia-resume.service
+4月 22 01:44:20 fedora logger[4242]: <13>Apr 22 01:44:20 suspend: nvidia-resume.service
+4月 22 01:44:20 fedora systemd[1]: nvidia-resume.service: Deactivated successfully.
+4月 22 01:44:20 fedora systemd[1]: Finished NVIDIA system resume actions.
+4月 22 01:44:20 fedora audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=nvidia-resume comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:20 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=nvidia-resume comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:20 fedora kernel: RTL8226B_RTL8221B 2.5Gbps PHY r8169-0-200:00: attached PHY driver (mii_bus:phy_addr=r8169-0-200:00, irq=MAC)
+4月 22 01:44:20 fedora uresourced[1896]: Setting resources on user.slice (MemoryMin: 262144000, MemoryLow: 0, CPUWeight: -, IOWeight: -)
+4月 22 01:44:20 fedora uresourced[1896]: Setting resources on user-1000.slice (MemoryMin: 262144000, MemoryLow: 0, CPUWeight: 500, IOWeight: 500)
+4月 22 01:44:20 fedora uresourced[1896]: Setting resources on user@1000.service (MemoryMin: 262144000, MemoryLow: 0, CPUWeight: 500, IOWeight: 500)
+4月 22 01:44:20 fedora plasmashell[2162]: org.kde.plasma.pulseaudio: No object for name "alsa_input.pci-0000_06_00.6.analog-stereo"
+4月 22 01:44:20 fedora plasmashell[2162]: org.kde.plasma.pulseaudio: No object for name "alsa_output.pci-0000_06_00.6.analog-stereo"
+4月 22 01:44:20 fedora plasmashell[2162]: org.kde.plasma.pulseaudio: No object for name "alsa_input.pci-0000_06_00.6.analog-stereo"
+4月 22 01:44:20 fedora plasmashell[2162]: org.kde.plasma.pulseaudio: No object for name "@DEFAULT_SINK@"
+4月 22 01:44:20 fedora plasmashell[2162]: org.kde.plasma.pulseaudio: No object for name "@DEFAULT_SOURCE@"
+4月 22 01:44:20 fedora plasmashell[2162]: org.kde.plasma.pulseaudio: No object for name "@DEFAULT_SINK@"
+4月 22 01:44:20 fedora plasmashell[2162]: org.kde.plasma.pulseaudio: No object for name "@DEFAULT_SOURCE@"
+4月 22 01:44:21 fedora plasmashell[2162]: org.kde.plasma.pulseaudio: No object for name "alsa_input.pci-0000_06_00.6.analog-stereo"
+4月 22 01:44:21 fedora kernel: r8169 0000:02:00.0 enp2s0: Link is Down
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.0357] device (wlp4s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.0519] device (wlp4s0): set-hw-addr: set MAC address to 76:70:43:AF:5C:77 (scanning)
+4月 22 01:44:21 fedora kscreenlocker_greet[3832]: file:///usr/share/plasma/look-and-feel/org.fedoraproject.fedora.desktop/contents/components/UserList.qml:42:9: Unable to assign [undefined] to bool
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2462] device (p2p-dev-wlp4s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2465] manager: NetworkManager state is now DISCONNECTED
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2742] device (wlp4s0): supplicant interface state: internal-starting -> disconnected
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2743] device (p2p-dev-wlp4s0): state change: unavailable -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2751] Wi-Fi P2P device controlled by interface wlp4s0 created
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2757] manager: (p2p-dev-wlp4s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/6)
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2760] device (p2p-dev-wlp4s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2768] device (wlp4s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+4月 22 01:44:21 fedora NetworkManager[1497]: <info>  [1650563061.2774] device (p2p-dev-wlp4s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+4月 22 01:44:21 fedora kscreenlocker_greet[3832]: file:///usr/share/plasma/look-and-feel/org.fedoraproject.fedora.desktop/contents/components/UserList.qml:42:9: Unable to assign [undefined] to bool
+4月 22 01:44:21 fedora kernel: Bluetooth: hci0: Waiting for firmware download to complete
+4月 22 01:44:21 fedora kernel: Bluetooth: hci0: Firmware loaded in 1630322 usecs
+4月 22 01:44:21 fedora kernel: Bluetooth: hci0: Waiting for device to boot
+4月 22 01:44:21 fedora kernel: Bluetooth: hci0: Device booted in 14604 usecs
+4月 22 01:44:21 fedora kernel: Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-20-1-3.ddc
+4月 22 01:44:21 fedora kernel: Bluetooth: hci0: Applying Intel DDC parameters completed
+4月 22 01:44:21 fedora kernel: Bluetooth: hci0: Firmware revision 0.3 build 126 week 5 2022
+4月 22 01:44:21 fedora bluetoothd[1424]: Failed to set mode: Blocked through rfkill (0x12)
+4月 22 01:44:21 fedora bluetoothd[1424]: Player registered: sender=:1.80 path=/media_player0
+4月 22 01:44:21 fedora bluetoothd[1424]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/ldac
+4月 22 01:44:21 fedora bluetoothd[1424]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/aac
+4月 22 01:44:21 fedora bluetoothd[1424]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSink/sbc
+4月 22 01:44:21 fedora bluetoothd[1424]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/sbc
+4月 22 01:44:21 fedora bluetoothd[1424]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSink/sbc_xq
+4月 22 01:44:21 fedora bluetoothd[1424]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/sbc_xq
+4月 22 01:44:21 fedora bluetoothd[1424]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/faststream
+4月 22 01:44:21 fedora bluetoothd[1424]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/faststream_duplex
+4月 22 01:44:22 fedora kwin_x11[2113]: qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 65519, resource id: 54525957, major code: 18 (ChangeProperty), minor code: 0
+4月 22 01:44:23 fedora kded5[2112]: kf.bluezqt: PendingCall Error: ""
+4月 22 01:44:23 fedora ModemManager[1478]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.2/0000:02:00.0': not supported by any plugin
+4月 22 01:44:23 fedora ModemManager[1478]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:02.2/0000:04:00.0': not supported by any plugin
+4月 22 01:44:24 fedora wpa_supplicant[1595]: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=CN
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5149] policy: auto-activating connection 'PKU' (05941f78-928f-4581-8178-86cc78dc1a1a)
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5159] device (wlp4s0): Activation: starting connection 'PKU' (05941f78-928f-4581-8178-86cc78dc1a1a)
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5161] device (wlp4s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5165] manager: NetworkManager state is now CONNECTING
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5194] device (wlp4s0): set-hw-addr: reset MAC address to 84:1B:77:29:6E:45 (preserve)
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5211] device (wlp4s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5212] device (wlp4s0): Activation: (wifi) connection 'PKU' requires no security.  No secrets needed.
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5212] Config: added 'ssid' value 'PKU'
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5212] Config: added 'scan_ssid' value '1'
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5212] Config: added 'bgscan' value 'simple:30:-70:86400'
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5212] Config: added 'key_mgmt' value 'NONE'
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5347] device (wlp4s0): supplicant interface state: disconnected -> inactive
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5347] device (p2p-dev-wlp4s0): supplicant management interface state: disconnected -> inactive
+4月 22 01:44:24 fedora wpa_supplicant[1595]: wlp4s0: SME: Trying to authenticate with 38:91:d5:12:e7:60 (SSID='PKU' freq=5220 MHz)
+4月 22 01:44:24 fedora kernel: wlp4s0: authenticate with 38:91:d5:12:e7:60
+4月 22 01:44:24 fedora kernel: wlp4s0: send auth to 38:91:d5:12:e7:60 (try 1/3)
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5409] device (wlp4s0): supplicant interface state: inactive -> authenticating
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5409] device (p2p-dev-wlp4s0): supplicant management interface state: inactive -> authenticating
+4月 22 01:44:24 fedora kded5[2112]: org.kde.plasma.nm.kded: Unhandled active connection state change:  1
+4月 22 01:44:24 fedora wpa_supplicant[1595]: wlp4s0: Trying to associate with 38:91:d5:12:e7:60 (SSID='PKU' freq=5220 MHz)
+4月 22 01:44:24 fedora kernel: wlp4s0: authenticated
+4月 22 01:44:24 fedora kernel: wlp4s0: associate with 38:91:d5:12:e7:60 (try 1/3)
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5689] device (wlp4s0): supplicant interface state: authenticating -> associating
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5690] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+4月 22 01:44:24 fedora kernel: wlp4s0: RX AssocResp from 38:91:d5:12:e7:60 (capab=0x8001 status=0 aid=2)
+4月 22 01:44:24 fedora wpa_supplicant[1595]: wlp4s0: Associated with 38:91:d5:12:e7:60
+4月 22 01:44:24 fedora kernel: wlp4s0: associated
+4月 22 01:44:24 fedora wpa_supplicant[1595]: wlp4s0: CTRL-EVENT-CONNECTED - Connection to 38:91:d5:12:e7:60 completed [id=0 id_str=]
+4月 22 01:44:24 fedora kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlp4s0: link becomes ready
+4月 22 01:44:24 fedora wpa_supplicant[1595]: wlp4s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5864] device (wlp4s0): supplicant interface state: associating -> completed
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5865] device (wlp4s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "PKU"
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5865] device (p2p-dev-wlp4s0): supplicant management interface state: associating -> completed
+4月 22 01:44:24 fedora wpa_supplicant[1595]: wlp4s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-58 noise=9999 txrate=52000
+4月 22 01:44:24 fedora audit[1479]: NETFILTER_CFG table=firewalld:8 family=1 entries=5 op=nft_register_rule pid=1479 subj=system_u:system_r:firewalld_t:s0 comm="firewalld"
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5961] device (wlp4s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+4月 22 01:44:24 fedora NetworkManager[1497]: <info>  [1650563064.5964] dhcp4 (wlp4s0): activation: beginning transaction (timeout in 45 seconds)
+4月 22 01:44:24 fedora avahi-daemon[1423]: Joining mDNS multicast group on interface wlp4s0.IPv6 with address fe80::edc8:1dbf:69c4:27c2.
+4月 22 01:44:24 fedora avahi-daemon[1423]: New relevant interface wlp4s0.IPv6 for mDNS.
+4月 22 01:44:24 fedora avahi-daemon[1423]: Registering new address record for fe80::edc8:1dbf:69c4:27c2 on wlp4s0.*.
+4月 22 01:44:24 fedora audit[4295]: USER_AUTH pid=4295 uid=1000 auid=1000 ses=2 subj=unconfined_u:unconfined_r:chkpwd_t:s0-s0:c0.c1023 msg='op=PAM:unix_chkpwd acct="jydeng" exe="/usr/sbin/unix_chkpwd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:24 fedora kwin_x11[2113]: qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1685, resource id: 46137403, major code: 18 (ChangeProperty), minor code: 0
+4月 22 01:44:25 fedora systemd[1]: systemd-rfkill.service: Deactivated successfully.
+4月 22 01:44:25 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:26 fedora systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+4月 22 01:44:26 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:27 fedora systemd[1]: Starting Network Manager Script Dispatcher Service...
+4月 22 01:44:27 fedora systemd[1]: Started Network Manager Script Dispatcher Service.
+4月 22 01:44:27 fedora audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+4月 22 01:44:27 fedora NetworkManager[1497]: <info>  [1650563067.6320] dhcp4 (wlp4s0): state changed unknown -> bound, address=10.2.77.70
+4月 22 01:44:27 fedora avahi-daemon[1423]: Joining mDNS multicast group on interface wlp4s0.IPv4 with address 10.2.77.70.
+4月 22 01:44:27 fedora avahi-daemon[1423]: New relevant interface wlp4s0.IPv4 for mDNS.
+4月 22 01:44:27 fedora avahi-daemon[1423]: Registering new address record for 10.2.77.70 on wlp4s0.IPv4.
+4月 22 01:44:27 fedora NetworkManager[1497]: <info>  [1650563067.6346] device (wlp4s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+4月 22 01:44:27 fedora NetworkManager[1497]: <info>  [1650563067.6360] device (wlp4s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+4月 22 01:44:27 fedora NetworkManager[1497]: <info>  [1650563067.6361] device (wlp4s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+4月 22 01:44:27 fedora NetworkManager[1497]: <info>  [1650563067.6365] manager: NetworkManager state is now CONNECTED_LOCAL
+4月 22 01:44:27 fedora NetworkManager[1497]: <info>  [1650563067.6372] manager: NetworkManager state is now CONNECTED_SITE
+4月 22 01:44:27 fedora NetworkManager[1497]: <info>  [1650563067.6373] policy: set 'PKU' (wlp4s0) as default for IPv4 routing and DNS
+4月 22 01:44:27 fedora NetworkManager[1497]: <info>  [1650563067.6380] device (wlp4s0): Activation: successful, device activated.
+4月 22 01:44:27 fedora systemd-resolved[1396]: wlp4s0: Bus client set default route setting: yes
+4月 22 01:44:27 fedora systemd-resolved[1396]: wlp4s0: Bus client set DNS server list to: 162.105.129.122, 162.105.129.88
+4月 22 01:44:27 fedora systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+4月 22 01:44:27 fedora chronyd[1446]: Forward time jump detected!
+4月 22 01:44:27 fedora chronyd[1446]: Source 111.230.189.174 online
+4月 22 01:44:27 fedora chronyd[1446]: Source 139.199.215.251 online
+4月 22 01:44:27 fedora chronyd[1446]: Source 162.159.200.1 online
+4月 22 01:44:30 fedora avahi-daemon[1423]: Leaving mDNS multicast group on interface wlp4s0.IPv6 with address fe80::edc8:1dbf:69c4:27c2.
+4月 22 01:44:30 fedora avahi-daemon[1423]: Joining mDNS multicast group on interface wlp4s0.IPv6 with address 2001:da8:201:3043:9e10:638c:6eec:7c6a.
+4月 22 01:44:30 fedora avahi-daemon[1423]: Registering new address record for 2001:da8:201:3043:9e10:638c:6eec:7c6a on wlp4s0.*.
+4月 22 01:44:30 fedora NetworkManager[1497]: <info>  [1650563070.6988] policy: set 'PKU' (wlp4s0) as default for IPv6 routing and DNS
+4月 22 01:44:30 fedora avahi-daemon[1423]: Withdrawing address record for fe80::edc8:1dbf:69c4:27c2 on wlp4s0.
