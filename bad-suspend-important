@@ -1,0 +1,88 @@
+ 
+6月 03 18:26:34 fedora ModemManager[1509]: <info>  [sleep-monitor] system is about to suspend
+6月 03 18:26:34 fedora kwin_x11[2003]: qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 61887, resource id: 52428843, major code: 18 (ChangeProperty), minor code: 0
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8239] device (p2p-dev-wlp4s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8241] manager: NetworkManager state is now ASLEEP
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8245] device (wlp4s0): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+6月 03 18:26:34 fedora kded5[2002]: org.kde.plasma.nm.kded: Unhandled active connection state change:  3
+6月 03 18:26:34 fedora systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+6月 03 18:26:34 fedora systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+6月 03 18:26:34 fedora audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+6月 03 18:26:34 fedora kernel: wlp4s0: deauthenticating from 38:91:d5:12:e7:60 by local choice (Reason: 3=DEAUTH_LEAVING)
+6月 03 18:26:34 fedora systemd[1798]: dbus-:1.2-org.kde.LogoutPrompt@0.service: Main process exited, code=exited, status=1/FAILURE
+6月 03 18:26:34 fedora systemd[1798]: dbus-:1.2-org.kde.LogoutPrompt@0.service: Failed with result 'exit-code'.
+6月 03 18:26:34 fedora wpa_supplicant[1640]: wlp4s0: CTRL-EVENT-DISCONNECTED bssid=38:91:d5:12:e7:60 reason=3 locally_generated=1
+6月 03 18:26:34 fedora wpa_supplicant[1640]: wlp4s0: CTRL-EVENT-DSCP-POLICY clear_all
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8708] device (wlp4s0): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+6月 03 18:26:34 fedora avahi-daemon[1441]: Withdrawing address record for 2001:da8:201:3043:9e10:638c:6eec:7c6a on wlp4s0.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Leaving mDNS multicast group on interface wlp4s0.IPv6 with address 2001:da8:201:3043:9e10:638c:6eec:7c6a.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Joining mDNS multicast group on interface wlp4s0.IPv6 with address fe80::edc8:1dbf:69c4:27c2.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Registering new address record for fe80::edc8:1dbf:69c4:27c2 on wlp4s0.*.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Withdrawing address record for fe80::edc8:1dbf:69c4:27c2 on wlp4s0.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Leaving mDNS multicast group on interface wlp4s0.IPv6 with address fe80::edc8:1dbf:69c4:27c2.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Interface wlp4s0.IPv6 no longer relevant for mDNS.
+6月 03 18:26:34 fedora wpa_supplicant[1640]: wlp4s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-9999 noise=9999 txrate=0
+6月 03 18:26:34 fedora audit[1510]: NETFILTER_CFG table=firewalld:5 family=1 entries=5 op=nft_unregister_rule pid=1510 subj=system_u:system_r:firewalld_t:s0 comm="firewalld"
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8838] dhcp4 (wlp4s0): canceled DHCP transaction
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8838] dhcp4 (wlp4s0): activation: beginning transaction (timeout in 45 seconds)
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8839] dhcp4 (wlp4s0): state changed no lease
+6月 03 18:26:34 fedora avahi-daemon[1441]: Interface wlp4s0.IPv4 no longer relevant for mDNS.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Leaving mDNS multicast group on interface wlp4s0.IPv4 with address 10.2.87.145.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Withdrawing address record for 10.2.87.145 on wlp4s0.
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8864] device (wlp4s0): set-hw-addr: set MAC address to 62:AC:13:9F:0B:8C (scanning)
+6月 03 18:26:34 fedora kscreenlocker_greet[4621]: Qt: Session management error: networkIdsList argument is NULL
+6月 03 18:26:34 fedora avahi-daemon[1441]: Joining mDNS multicast group on interface wlp4s0.IPv4 with address 10.2.87.145.
+6月 03 18:26:34 fedora avahi-daemon[1441]: New relevant interface wlp4s0.IPv4 for mDNS.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Registering new address record for 10.2.87.145 on wlp4s0.IPv4.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Withdrawing address record for 10.2.87.145 on wlp4s0.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Leaving mDNS multicast group on interface wlp4s0.IPv4 with address 10.2.87.145.
+6月 03 18:26:34 fedora avahi-daemon[1441]: Interface wlp4s0.IPv4 no longer relevant for mDNS.
+6月 03 18:26:34 fedora systemd-resolved[1415]: wlp4s0: Bus client set default route setting: no
+6月 03 18:26:34 fedora systemd-resolved[1415]: wlp4s0: Bus client reset DNS server list.
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8986] device (wlp4s0): supplicant interface state: completed -> disconnected
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.8990] device (wlp4s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+6月 03 18:26:34 fedora NetworkManager[1542]: <info>  [1654251994.9018] device (wlp4s0): set-hw-addr: reset MAC address to 84:1B:77:29:6E:45 (unmanage)
+6月 03 18:26:34 fedora chronyd[1465]: Source 178.215.228.24 offline
+6月 03 18:26:34 fedora chronyd[1465]: Source 202.118.1.81 offline
+6月 03 18:26:34 fedora chronyd[1465]: Source 84.16.73.33 offline
+6月 03 18:26:34 fedora chronyd[1465]: Can't synchronise: no selectable sources
+6月 03 18:26:34 fedora chronyd[1465]: Source 219.216.128.25 offline
+6月 03 18:26:34 fedora wpa_supplicant[1640]: p2p-dev-wlp4s0: CTRL-EVENT-DSCP-POLICY clear_all
+6月 03 18:26:34 fedora wpa_supplicant[1640]: p2p-dev-wlp4s0: CTRL-EVENT-DSCP-POLICY clear_all
+6月 03 18:26:34 fedora wpa_supplicant[1640]: nl80211: deinit ifname=p2p-dev-wlp4s0 disabled_11b_rates=0
+6月 03 18:26:34 fedora wpa_supplicant[1640]: wlp4s0: CTRL-EVENT-DSCP-POLICY clear_all
+6月 03 18:26:34 fedora wpa_supplicant[1640]: wlp4s0: CTRL-EVENT-DSCP-POLICY clear_all
+6月 03 18:26:34 fedora wpa_supplicant[1640]: nl80211: deinit ifname=wlp4s0 disabled_11b_rates=0
+6月 03 18:26:35 fedora systemd[1]: Reached target sleep.target - Sleep.
+6月 03 18:26:35 fedora systemd[1]: Starting nvidia-suspend.service - NVIDIA system suspend actions...
+6月 03 18:26:35 fedora suspend[4668]: nvidia-suspend.service
+6月 03 18:26:35 fedora logger[4668]: <13>Jun  3 18:26:35 suspend: nvidia-suspend.service
+6月 03 18:26:35 fedora bluetoothd[1442]: Endpoint unregistered: sender=:1.38 path=/MediaEndpoint/A2DPSource/ldac
+6月 03 18:26:35 fedora bluetoothd[1442]: Endpoint unregistered: sender=:1.38 path=/MediaEndpoint/A2DPSource/aac
+6月 03 18:26:35 fedora bluetoothd[1442]: Endpoint unregistered: sender=:1.38 path=/MediaEndpoint/A2DPSink/sbc
+6月 03 18:26:35 fedora bluetoothd[1442]: Endpoint unregistered: sender=:1.38 path=/MediaEndpoint/A2DPSource/sbc
+6月 03 18:26:35 fedora bluetoothd[1442]: Endpoint unregistered: sender=:1.38 path=/MediaEndpoint/A2DPSink/sbc_xq
+6月 03 18:26:35 fedora bluetoothd[1442]: Endpoint unregistered: sender=:1.38 path=/MediaEndpoint/A2DPSource/sbc_xq
+6月 03 18:26:35 fedora bluetoothd[1442]: Endpoint unregistered: sender=:1.38 path=/MediaEndpoint/A2DPSource/faststream
+6月 03 18:26:35 fedora bluetoothd[1442]: Endpoint unregistered: sender=:1.38 path=/MediaEndpoint/A2DPSource/faststream_duplex
+6月 03 18:26:35 fedora bluetoothd[1442]: Player unregistered: sender=:1.38 path=/media_player0
+6月 03 18:26:35 fedora uresourced[1793]: Setting resources on user-1000.slice (MemoryMin: 0, MemoryLow: 0, CPUWeight: 100, IOWeight: 100)
+6月 03 18:26:35 fedora uresourced[1793]: Setting resources on user@1000.service (MemoryMin: 0, MemoryLow: 0, CPUWeight: 100, IOWeight: 100)
+6月 03 18:26:35 fedora uresourced[1793]: Setting resources on user.slice (MemoryMin: 0, MemoryLow: 0, CPUWeight: -, IOWeight: -)
+6月 03 18:26:35 fedora systemd[1]: nvidia-suspend.service: Deactivated successfully.
+6月 03 18:26:35 fedora systemd[1]: Finished nvidia-suspend.service - NVIDIA system suspend actions.
+6月 03 18:26:35 fedora audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=nvidia-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+6月 03 18:26:35 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=nvidia-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+6月 03 18:26:35 fedora systemd[1]: Starting systemd-suspend.service - System Suspend...
+6月 03 18:26:35 fedora audit[4771]: AVC avc:  denied  { read } for  pid=4771 comm="nix-run" name="nix-daemon.sh" dev="nvme0n1p4" ino=6730511 scontext=system_u:system_r:tlp_t:s0 tcontext=unconfined_u:object_r:var_t:s0 tclass=file permissive=1
+6月 03 18:26:35 fedora audit[4771]: AVC avc:  denied  { open } for  pid=4771 comm="nix-run" path="/nix/store/w1q0zcdnsd6g9ic0zfi68m9pgcfqmajq-nix-2.8.1/etc/profile.d/nix-daemon.sh" dev="nvme0n1p4" ino=6730511 scontext=system_u:system_r:tlp_t:s0 tcontext=unconfined_u:object_r:var_t:s0 tclass=file permissive=1
+6月 03 18:26:35 fedora audit[4771]: AVC avc:  denied  { getattr } for  pid=4771 comm="nix-run" path="/nix/store/w1q0zcdnsd6g9ic0zfi68m9pgcfqmajq-nix-2.8.1/etc/profile.d/nix-daemon.sh" dev="nvme0n1p4" ino=6730511 scontext=system_u:system_r:tlp_t:s0 tcontext=unconfined_u:object_r:var_t:s0 tclass=file permissive=1
+6月 03 18:26:35 fedora audit[4771]: AVC avc:  denied  { search } for  pid=4771 comm="nix-run" name="ssl" dev="nvme0n1p4" ino=7838557 scontext=system_u:system_r:tlp_t:s0 tcontext=system_u:object_r:cert_t:s0 tclass=dir permissive=1
+6月 03 18:26:35 fedora audit[4771]: AVC avc:  denied  { read } for  pid=4771 comm="nix-run" name="certs" dev="nvme0n1p4" ino=7838560 scontext=system_u:system_r:tlp_t:s0 tcontext=system_u:object_r:cert_t:s0 tclass=lnk_file permissive=1
+6月 03 18:26:35 fedora audit[4771]: AVC avc:  denied  { getattr } for  pid=4771 comm="nix-run" path="/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem" dev="nvme0n1p4" ino=7835806 scontext=system_u:system_r:tlp_t:s0 tcontext=system_u:object_r:cert_t:s0 tclass=file permissive=1
+6月 03 18:26:35 fedora audit[4771]: AVC avc:  denied  { execute } for  pid=4771 comm="nix-run" name="safe-rm" dev="nvme0n1p4" ino=6834246 scontext=system_u:system_r:tlp_t:s0 tcontext=unconfined_u:object_r:var_t:s0 tclass=file permissive=1
+6月 03 18:26:35 fedora audit[4773]: AVC avc:  denied  { execute_no_trans } for  pid=4773 comm="nix-run" path="/nix/store/aq38nazkpl006xqv8w7i13blimzl7hnm-safe-rm-1.1.0/bin/safe-rm" dev="nvme0n1p4" ino=6834246 scontext=system_u:system_r:tlp_t:s0 tcontext=unconfined_u:object_r:var_t:s0 tclass=file permissive=1
+6月 03 18:26:35 fedora audit[4773]: AVC avc:  denied  { map } for  pid=4773 comm="safe-rm" path="/nix/store/aq38nazkpl006xqv8w7i13blimzl7hnm-safe-rm-1.1.0/bin/safe-rm" dev="nvme0n1p4" ino=6834246 scontext=system_u:system_r:tlp_t:s0 tcontext=unconfined_u:object_r:var_t:s0 tclass=file permissive=1
+6月 03 18:26:35 fedora systemd-sleep[4735]: Entering sleep state 'suspend'...
+6月 03 18:26:35 fedora kernel: PM: suspend entry (s2idle)
+6月 03 18:26:35 fedora kernel: Filesystems sync: 0.029 seconds
